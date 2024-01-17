@@ -17,7 +17,7 @@ def adiciona_data(path: Path):
 
 def renomeia_arquivo(origem: Path, destino: Path):
     """
-    
+    renomeia o arquivo caso tenha mais de um arquivo com o mesmo nome
     """
     if Path(destino / origem.name).exists():
         incremento = 0
